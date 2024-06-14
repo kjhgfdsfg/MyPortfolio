@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background: url(img/fon.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1.slogan {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    position: fixed;
+    top: 90px;
+    left: 250px;
+}
+div.saa {
+    margin-top: 150px;
+    text-align: center;
+}
+h2.podtekst {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 300px;
+}
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.sss1 {
+    margin-left: 20px;
+}
+.sss2 {
+    margin-left: 580px;
+    margin-top: -90px;
+}
+.sss3 {
+    margin-left: 1180px;
+    margin-top: -90px;
+}

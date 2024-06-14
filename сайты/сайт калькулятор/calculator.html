@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculatorstylee.css">
+</head>
+<body>
+    
+    <div class="saa">
+        <h1 class="slogan">Геометрический калькулятор<br>поможем найти площадь и периметр любой фигуры</h1>
+    </div>
+        <h2 class="podtekst">Что хотите решить?</h2>
+
+
+            <div class="sss1">
+                    <a href="Объем и площадь поверхности куба/index.html">Объем и площадь поверхности куба</a><br><a href="парлелелпипед/index.html">Калькулятор плоащди и объема параллепипеда</a><br><a href="Площадь боковой поверхности/">Объем и площадь боковой поверхности куба</a>
+            </div>
+
+            <div class="sss2">
+                    <a href="Площадь и периметр прямоугольного треугольника/">Площадь и периметр прямоугольного треугольника</a><br><a href="Площадь квадрата/">Площадь и периметр квадрата</a><br><a href="Площадь кольца/">Объем и площадь кольца</a>
+            </div>
+
+            <div class="sss3">
+                    <a href="Площадь и периметр прямоугольного треугольника/">Площадь и периметр прямоугольника</a><br><a href="равнобедренный треугольник/">Вычисление площади и угла треугольника</a><br><a href="Скорость/">Вычисление скорости и пути</a>
+            </div>
+            
+          
+
+    <!--<header>
+        <div class="calculator1">
+            <h2>Калькулятор скорости и пути</h2>
+            <label for="acceleration">Ускорение (a):</label>
+            <input type="number" id="acceleration" placeholder="Введите значение ускорения">
+            <label for="time">Время (t):</label>
+            <input type="number" id="time" placeholder="Введите значение времени">
+            <button onclick="calculate1()">Вычислить</button>
+            <div id="result"></div>
+        </div>
+    
+        <div class="calculator2">
+            <h2>Равнобедренный треугольник</h2>
+            <label for="base">Основание (a):</label>
+            <input type="number" id="base" placeholder="Введите длину основания">
+            <label for="height">Высота (h):</label>
+            <input type="number" id="height" placeholder="Введите высоту">
+            <button onclick="calculate2()">Вычислить</button>
+            <div id="result"></div>
+        </div>
+    
+        <div class="calculator3">
+            <h2>Калькулятор плоащади и периметора прямоугольника</h2>
+            <label for="base">Сторона (a):</label>
+            <input type="number" id="base" placeholder="Введите длину основания">
+            <label for="height">Сторона (b):</label>
+            <input type="number" id="height" placeholder="Введите высоту">
+            <button onclick="calculate()">Вычислить</button>
+            <div id="result"></div>
+        </div>
+    
+        <div class="calculator4">
+            <h2>Калькулятор плоащди и объема параллепипеда</h2>
+            <label for="Radius">Радиус (R):</label>
+            <input type="number" id="Radius" placeholder="Введите радиус">
+        
+            <label for="Radiusvn"> Внутренний радиус(r):</label>
+            <input type="number" id="Radiusvn" placeholder="Введите внутрений радиус">
+        
+            <button onclick="calculate()">Вычислить</button>
+            <div id="result"></div>
+        </div>
+    
+        <div class="calculator5">
+            <h2>Калькулятор плоащади и периметора квадрата</h2>
+            <label for="base">Сторона квадрата (a):</label>
+            <input type="number" id="base" placeholder="Введите сторону">
+            <button onclick="calculate()">Вычислить</button>
+            <div id="result"></div>
+        </div>
+    
+        <div class="calculator6">
+            <h2>Калькулятор плоащди и объема поверхности куба</h2>
+            <label for="height">Сторона куба (a):</label>
+            <input type="number" id="height" placeholder="Введите сторону">
+        
+            <button onclick="calculate()">Вычислить</button>
+            <div id="result"></div>
+        </div>
+    
+        <div class="calculator7">
+            <h2>Калькулятор плоащди и объема параллепипеда</h2>
+            <label for="height">Сторона квадрата (a):</label>
+            <input type="number" id="height" placeholder="Введите сторону">
+        
+            <label for="width">Сторона квадрата (b):</label>
+            <input type="number" id="width" placeholder="Введите сторону">
+        
+            <label for="length">Сторона квадрата (c):</label>
+            <input type="number" id="length" placeholder="Введите сторону">
+        
+            <button onclick="calculate()">Вычислить</button>
+            <div id="result"></div>
+        </div>
+    
+        <div class="calculator8">
+            <h2>Калькулятор плоащди и периметра прямоугольного треугольника</h2>
+            <label for="height">катет (a):</label>
+            <input type="number" id="height" placeholder="Введите катет1">
+        
+            <label for="width">катет (b):</label>
+            <input type="number" id="width" placeholder="Введите катет2">
+        
+            <label for="length">гипотенуза (c):</label>
+            <input type="number" id="length" placeholder="Введите гипотенузу">
+        
+            <button onclick="calculate()">Вычислить</button>
+            <div id="result"></div>
+        </div>
+
+        <div class="calculator9">
+            <h2>Калькулятор плоащди и объема кольца</h2>
+            <label for="radius">Радиус основания (r):</label>
+            <input type="number" id="radius" placeholder="Введите радиус основания">
+        
+            <label for="length">Сторона квадрата (c):</label>
+            <input type="number" id="length" placeholder="Введите Высоту">
+        
+            <button onclick="calculate()">Вычислить</button>
+            <div id="result"></div>
+        </div>
+    </header>-->
+    
+</body>
+</html>

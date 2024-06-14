@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  line-height: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #006599;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.logo {
+  margin-top: 50px;
+  width: 48px;
+}
+
+.neat {
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+li {
+  text-align: center;
+  color: white;
+  font-size: 1.3em;
+}
+li a {
+  text-align: center;
+  display: block;
+  color: #ffffff;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  color: yellow;
+}
+
+li a:hover:not(.active) {
+  color: yellow;
+}
+
+.maindiv {
+  margin-left: 21%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.hpie {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.welcome {
+  color: #006599;
+}
+
+h2 {
+  margin-top: 5%;
+  color: #006599;
+}
+
+.img2 {
+  width: 260px;
+  display: block;
+  margin-top: -320px;
+}
+
+.about {
+  display: block;
+  margin-left: 300px;
+}
+
+.b1 {
+  color: white;
+  background-color: #006599;
+  border: none;
+  width: 170px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.ga1 {
+  width: 17.9%;
+  margin-right: 20px;
+}
+
+.ga2 {
+  width: 31.3%;
+  margin-right: 20px;
+}
+
+.ga3 {
+  width: 22.9%;
+  margin-right: 20px;
+}
+
+.width-setter input {
+  width: 46%;
+  height: 14px;
+  padding: 4px 9px 5px;
+  border-color: #006599;
+  display: inline;
+}
+
+.width-setter textarea {
+  width: 46%;
+  height: 200px;
+  padding: 4px 9px 5px;
+  border-color: #006599;
+}
+
+.send {
+  color: white;
+  background-color: #006599;
+  border: none;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.textnear {
+  display: block;
+  width: 500px;
+  margin-left: 550px;
+  margin-top: -385px;
+}
+
+.near1 {
+  width: 117%;
+  margin-left: 100px;
+}
+.near2 {
+  width: 47%;
+  margin-left: 100px;
+}
+.text1 {
+  display: block;
+  width: auto;
+}
+
+.end {
+  display: block;
+  color: gray;
+  margin-top: 25%;
+}
+
+b {
+  color: #006599;
+}
